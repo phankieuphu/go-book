@@ -26,4 +26,5 @@ func getRouters() {
 	v1 := r.Group("/v1")
 	routers.UserRouter(v1)
 	routers.VocherRouter(v1)
+	routers.TimeRouter(v1)
 }
